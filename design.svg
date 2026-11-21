@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <style>
+    .paper-bg { fill: #f6f1e7; }
+    .masthead { font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; fill: #111111; letter-spacing: 2px; }
+    .subtitle { font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; font-size: 15px; fill: #333333; }
+    .lead-head { font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; font-size: 30px; fill: #111111; }
+    .lead-sub { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 15px; fill: #333333; line-height: 1.4; }
+    .grid-head { font-family: 'Arial', 'Helvetica', sans-serif; font-weight: 700; font-size: 13px; fill: #c8102e; letter-spacing: 0.5px; }
+    .grid-desc { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 12px; fill: #222222; }
+    .footer-text { font-family: 'Georgia', 'Times New Roman', serif; font-size: 14px; fill: #444444; letter-spacing: 1px; }
+    .rule { stroke: #111111; stroke-width: 2px; }
+    .thin-rule { stroke: #111111; stroke-width: 0.75px; }
+    .dashed-rule { stroke: #c8102e; stroke-width: 1.5px; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" class="paper-bg"/>
+  <rect x="24" y="24" width="976" height="976" fill="none" stroke="#111111" stroke-width="4"/>
+  <rect x="30" y="30" width="964" height="964" fill="none" stroke="#111111" stroke-width="1"/>
+
+  <!-- Masthead Header -->
+  <line x1="50" y1="55" x2="974" y2="55" class="rule"/>
+  <line x1="50" y1="61" x2="974" y2="61" class="thin-rule"/>
+  
+  <text x="512" y="112" class="masthead" font-size="64" text-anchor="middle">THE WORLD</text>
+  
+  <line x1="50" y1="130" x2="974" y2="130" class="thin-rule"/>
+  <line x1="50" y1="136" x2="974" y2="136" class="rule"/>
+
+  <text x="50" y="156" class="subtitle" font-size="13">Vol. XXIV No. 328</text>
+  <text x="512" y="156" class="subtitle" font-size="14" text-anchor="middle" font-weight="bold">Friday, 20 November 2026 · World News in One Page</text>
+  <text x="974" y="156" class="subtitle" font-size="13" text-anchor="end">€3.50 · $4.00</text>
+
+  <line x1="50" y1="166" x2="974" y2="166" class="thin-rule"/>
+
+  <!-- LEAD ART SECTION (Top ~45%: y=175 to y=550) -->
+  <rect x="50" y="176" width="924" height="300" fill="#ebe5db" stroke="#d0c8b8" stroke-width="1"/>
+  
+  <!-- Illustrative SVG Graphic: Poland map silhouette, NATO block, missile arc, Kyiv skyline -->
+  <g transform="translate(70, 190)">
+    <!-- Radar / Map background grid -->
+    <circle cx="240" cy="130" r="100" fill="none" stroke="#c8102e" stroke-width="0.5" opacity="0.3"/>
+    <circle cx="240" cy="130" r="60" fill="none" stroke="#c8102e" stroke-width="0.5" opacity="0.4"/>
+    <line x1="140" y1="130" x2="340" y2="130" stroke="#c8102e" stroke-width="0.5" opacity="0.3"/>
+    <line x1="240" y1="30" x2="240" y2="230" stroke="#c8102e" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Poland Map Silhouette (Stylized polygon) -->
+    <polygon points="180,80 240,60 300,85 320,130 280,180 220,190 170,150 160,110" fill="#d5cebe" stroke="#111" stroke-width="2"/>
+    <text x="235" y="130" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#333" text-anchor="middle">POLAND</text>
+
+    <!-- NATO Block Marker -->
+    <rect x="190" y="95" width="45" height="25" fill="#003399" stroke="#fff" stroke-width="1"/>
+    <text x="212" y="112" font-family="Arial, sans-serif" font-weight="bold" font-size="11" fill="#fff" text-anchor="middle">NATO</text>
+
+    <!-- Missile Trajectory (Red dashed arc) -->
+    <path d="M 60,40 Q 140,80 205,102" fill="none" stroke="#c8102e" stroke-width="3" stroke-dasharray="6,4"/>
+    <polygon points="205,102 193,96 197,105" fill="#c8102e"/>
+
+    <!-- Explosion burst at impact site -->
+    <circle cx="207" cy="102" r="12" fill="#c8102e" opacity="0.8"/>
+    <circle cx="207" cy="102" r="6" fill="#ffcc00"/>
+
+    <!-- Kyiv Burning Skyline Box -->
+    <rect x="530" y="40" width="330" height="190" fill="#222" stroke="#111" stroke-width="2"/>
+    <text x="695" y="68" font-family="Georgia, serif" font-weight="bold" font-size="18" fill="#ff4444" text-anchor="middle">KYIV · OVERNIGHT STRIKES</text>
+    
+    <!-- Skyline buildings -->
+    <rect x="550" y="110" width="30" height="120" fill="#333"/>
+    <rect x="590" y="90" width="35" height="140" fill="#3a3a3a"/>
+    <rect x="635" y="130" width="40" height="100" fill="#2b2b2b"/>
+    <rect x="685" y="75" width="45" height="155" fill="#333"/>
+    <rect x="740" y="100" width="35" height="130" fill="#3a3a3a"/>
+    <rect x="785" y="120" width="50" height="110" fill="#2c2c2c"/>
+
+    <!-- Fire / Smoke effects -->
+    <circle cx="705" cy="85" r="15" fill="#c8102e" opacity="0.8"/>
+    <circle cx="610" cy="100" r="10" fill="#c8102e" opacity="0.7"/>
+    <path d="M 690,75 Q 700,50 715,40 Q 730,55 725,75" fill="#ff6600" opacity="0.9"/>
+    
+    <text x="695" y="210" font-family="Arial, sans-serif" font-size="12" fill="#fff" text-anchor="middle">Bridges Crippled · Power Cut · 3 Killed</text>
+  </g>
+
+  <!-- Lead Headline Area -->
+  <rect x="50" y="476" width="924" height="84" fill="#f6f1e7"/>
+  <text x="512" y="512" class="lead-head" text-anchor="middle">RUSSIAN MISSILES HIT NATO SOIL IN POLAND</text>
+  <text x="512" y="538" class="lead-sub" text-anchor="middle" font-weight="bold">NATO calls it a violation; overnight strikes on Kyiv kill 3, cripple bridges and cut power.</text>
+
+  <line x1="50" y1="568" x2="974" y2="568" class="rule"/>
+
+  <!-- 2-COLUMN GRID OF 6 SHORT STORIES (y=578 to y=940) -->
+  <!-- Column 1: x=50 to 485 -->
+  <!-- Column 2: x=539 to 974 -->
+  <!-- Vertical divider at x=512 -->
+  <line x1="512" y1="578" x2="512" y2="940" class="thin-rule" stroke-dasharray="2,2"/>
+
+  <!-- STORY 1 (Col 1, Top) -->
+  <g transform="translate(50, 584)">
+    <!-- Icon: Podium / US flag representation -->
+    <rect x="0" y="2" width="28" height="22" fill="#111"/>
+    <rect x="6" y="8" width="16" height="14" fill="#c8102e"/>
+    <text x="42" y="14" class="grid-head">TRUMP TOUTS SUMMIT, EYES KIM MEETING</text>
+    <text x="42" y="32" class="grid-desc">Post-summit press conference in Washington following</text>
+    <text x="42" y="47" class="grid-desc">the Xi-Putin Shenzhen meeting; North Korea visit postponed.</text>
+  </g>
+  <line x1="50" y1="642" x2="485" y2="642" class="thin-rule"/>
+
+  <!-- STORY 2 (Col 1, Mid) -->
+  <g transform="translate(50, 652)">
+    <!-- Icon: Stock Chart / Dollar -->
+    <rect x="0" y="2" width="28" height="22" fill="none" stroke="#111" stroke-width="1.5"/>
+    <polyline points="4,20 10,12 16,16 24,6" fill="none" stroke="#c8102e" stroke-width="2"/>
+    <text x="42" y="14" class="grid-head">ANTHROPIC IPO: BIGGEST EVER</text>
+    <text x="42" y="32" class="grid-desc">AI lab surges in record market debut, trading around</text>
+    <text x="42" y="47" class="grid-desc">$100 before dipping after day one in historic listing.</text>
+  </g>
+  <line x1="50" y1="710" x2="485" y2="710" class="thin-rule"/>
+
+  <!-- STORY 3 (Col 1, Bot) -->
+  <g transform="translate(50, 720)">
+    <!-- Icon: Handshake / Flags -->
+    <rect x="2" y="4" width="24" height="18" fill="none" stroke="#111" stroke-width="1.5"/>
+    <line x1="8" y1="13" x2="20" y2="13" stroke="#c8102e" stroke-width="2"/>
+    <text x="42" y="14" class="grid-head">UK AND EU HOLD RARE SUMMIT</text>
+    <text x="42" y="32" class="grid-desc">Prime Minister Burnham seeks to mend Brexit damage</text>
+    <text x="42" y="47" class="grid-desc">and strengthen bilateral ties in landmark diplomatic meet.</text>
+  </g>
+  <line x1="50" y1="778" x2="485" y2="778" class="thin-rule"/>
+
+  <!-- STORY 4 (Col 2, Top) -->
+  <g transform="translate(539, 584)">
+    <!-- Icon: Gavel -->
+    <rect x="4" y="14" width="20" height="6" fill="#111"/>
+    <rect x="12" y="4" width="6" height="16" fill="#111"/>
+    <text x="42" y="14" class="grid-head">ICJ: MYANMAR GUILTY OF GENOCIDE</text>
+    <text x="42" y="32" class="grid-desc">Landmark ruling against Myanmar regarding the Rohingya;</text>
+    <text x="42" y="47" class="grid-desc">international rights groups strongly urge immediate sanctions.</text>
+  </g>
+  <line x1="539" y1="642" x2="974" y2="642" class="thin-rule"/>
+
+  <!-- STORY 5 (Col 2, Mid) -->
+  <g transform="translate(539, 652)">
+    <!-- Icon: Leaf / Globe -->
+    <circle cx="14" cy="13" r="10" fill="none" stroke="#111" stroke-width="1.5"/>
+    <path d="M 8,13 Q 14,5 20,13" fill="#c8102e"/>
+    <text x="42" y="14" class="grid-head">COP STALLED ON FOSSIL FUELS</text>
+    <text x="42" y="32" class="grid-desc">UN climate talks make zero progress on fossil-fuel</text>
+    <text x="42" y="47" class="grid-desc">phaseout and climate finance; delegates slam betrayal.</text>
+  </g>
+  <line x1="539" y1="710" x2="974" y2="710" class="thin-rule"/>
+
+  <!-- STORY 6 (Col 2, Bot) -->
+  <g transform="translate(539, 720)">
+    <!-- Icon: Hippo silhouette / Hat -->
+    <ellipse cx="14" cy="14" rx="10" ry="8" fill="#111"/>
+    <circle cx="8" cy="10" r="3" fill="#111"/>
+    <rect x="18" y="2" width="8" height="6" fill="#c8102e"/>
+    <text x="42" y="14" class="grid-head">FIONA THE HIPPO DIES AT 9</text>
+    <text x="42" y="32" class="grid-desc">Cincinnati Zoo's famed hippo icon passes away</text>
+    <text x="42" y="47" class="grid-desc">days after accidentally swallowing a visitor's hat.</text>
+  </g>
+  <line x1="539" y1="778" x2="974" y2="778" class="thin-rule"/>
+
+  <!-- Additional Editorial Filler Section / Quote Box -->
+  <rect x="50" y="795" width="924" height="145" fill="#efe9dc" stroke="#d0c8b8" stroke-width="1"/>
+  <text x="512" y="825" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#111" text-anchor="middle">"An unprecedented convergence of geopolitical friction, financial records, and planetary reckoning."</text>
+  <text x="512" y="852" font-family="Arial, sans-serif" font-weight="bold" font-size="12" fill="#c8102e" text-anchor="middle">SPECIAL DAILY REPORT · SPECIAL DAILY REPORT</text>
+  
+  <line x1="150" y1="875" x2="874" y2="875" class="thin-rule"/>
+  
+  <text x="100" y="905" font-family="Arial, sans-serif" font-size="11" fill="#444">POLITICS &amp; DEFENSE · LEAD STORY EDITORIAL</text>
+  <text x="512" y="905" font-family="Arial, sans-serif" font-size="11" fill="#444" text-anchor="middle">GLOBAL MARKETS &amp; DIPLOMACY</text>
+  <text x="924" y="905" font-family="Arial, sans-serif" font-size="11" fill="#444" text-anchor="end">CLIMATE &amp; SOCIETY</text>
+
+  <!-- Footer Strip -->
+  <line x1="50" y1="952" x2="974" y2="952" class="rule"/>
+  <line x1="50" y1="958" x2="974" y2="958" class="thin-rule"/>
+  
+  <text x="50" y="982" class="footer-text">ISSUE #2026-328</text>
+  <text x="512" y="982" class="footer-text" text-anchor="middle" font-weight="bold">ONE PAGE. ONE DAY. 20.11.2026.</text>
+  <text x="974" y="982" class="footer-text" text-anchor="end">WORLD NEWS EDITION</text>
+  
+  <line x1="50" y1="994" x2="974" y2="994" class="rule"/>
+</svg>
